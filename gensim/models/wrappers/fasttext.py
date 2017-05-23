@@ -39,6 +39,7 @@ from gensim.models.keyedvectors import KeyedVectors
 from gensim.models.word2vec import Word2Vec
 
 from six import string_types
+from six.moves import xrange
 
 logger = logging.getLogger(__name__)
 
